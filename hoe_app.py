@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 
@@ -55,5 +54,4 @@ if st.button("Generar HOE"):
 
     st.markdown("---")
     st.write(f"**Tiempo Total:** {tiempo_total} minutos")
-    st.write(f"**Costo Estimado:** ${costo_est
-imado:.2f}")
+    st.write(f"**Costo Estimado:** ${costo_estimado:.2f}")
