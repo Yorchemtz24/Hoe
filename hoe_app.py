@@ -55,3 +55,5 @@ if st.button("Generar HOE"):
     st.markdown("---")
     st.write(f"**Tiempo Total:** {tiempo_total} minutos")
     st.write(f"**Costo Estimado:** ${costo_estimado:.2f}")
+df = pd.read_excel('operaciones_hoe.xlsx')
+    
