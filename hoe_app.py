@@ -8,7 +8,7 @@ def cargar_datos():
 
 df = cargar_datos()
 
-st.title("Generador de HOE - Reciclaje Electrónico")
+st.title("ProambiReciclaPro")
 
 # Entradas del usuario
 equipo = st.selectbox("Selecciona el tipo de equipo:", df['Equipo'].unique())
